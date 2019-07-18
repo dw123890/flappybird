@@ -1,0 +1,1985 @@
+<!DOCTYPE html>
+<html class="sticky-footer" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="language" content="en" />
+<meta name="google-site-verification" content="5DlMDlKLgHzjbegRYP9UHXr6EZ6a3a6J0-PRa_smKis" />
+<meta name="description" content="Tap the screen to make the blue square jump. Avoid the obstacles and keep moving!">
+<meta name="keywords" content="Tynker,programming,hour of code,hour-of-code,creative computing,STEM,educator,schools,kids,teachers,parents,learning">
+<link rel="canonical" href="/community/projects/play/flappy-bird-5/57039fe451684fe1788b457a">
+<meta name="apple-itunes-app" content="app-id=805869467">
+<link rel="icon" href="/logos/icons/appicon-32.png" sizes="32x32" />
+<link rel="icon" href="/logos/icons/appicon-180.png" sizes="180x180" />
+<link rel="apple-touch-icon-precomposed" href="/logos/icons/appicon-180.png" sizes="180x180" />
+<link rel="manifest" href="/manifest.json" />
+<meta name="mobile-web-app-capable" content="yes"></meta>
+<meta name="theme-color" content="#c6eef9"></meta>
+
+<meta itemprop="name" content="Flappy Bird 5 | Tynker">
+<meta itemprop="description" content="Tap the screen to make the blue square jump. Avoid the obstacles and keep moving!">
+<meta itemprop="image" content="https://www.tynker.com/projects/screenshot/57039fe451684fe1788b457a/flappy-bird-5.png">
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@gotynker" />
+<meta name="twitter:title" content="Flappy Bird 5 | Tynker" />
+<meta name="twitter:description" content="Tap the screen to make the blue square jump. Avoid the obstacles and keep moving!" />
+<meta name="twitter:image" content="https://www.tynker.com/projects/screenshot/57039fe451684fe1788b457a/flappy-bird-5.png" />
+<meta name="twitter:image:src" content="https://www.tynker.com/projects/screenshot/57039fe451684fe1788b457a/flappy-bird-5.png">
+<meta property="twitter:image:width" content="1200" />
+<meta property="twitter:image:height" content="630" />
+<meta name="twitter:url" content="/community/projects/play/flappy-bird-5/57039fe451684fe1788b457a" />
+<meta name="twitter:creator" content="@gotynker">
+<meta property="fb:app_id" content="189623408308473" />
+
+<meta property="og:title" content="Flappy Bird 5 | Tynker" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.tynker.com/projects/screenshot/57039fe451684fe1788b457a/flappy-bird-5.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="/community/projects/play/flappy-bird-5/57039fe451684fe1788b457a" />
+<meta property="og:description" content="Tap the screen to make the blue square jump. Avoid the obstacles and keep moving!" />
+<meta property="og:site_name" content="Tynker.com" />
+<meta property="article:tag" content="Tynker" />
+<meta property="article:tag" content="STEM" />
+<meta property="article:tag" content="Learn to code" />
+<meta property="article:tag" content="Hour of Code" />
+<meta property="article:tag" content="Coding for Kids" />
+<meta property="article:tag" content="Minecraft" />
+<meta property="article:tag" content="Minecraft Modding" />
+<meta property="article:tag" content="Minecraft Courses" />
+<meta name="enable_collector_modal" content="true">
+<title>Flappy Bird 5 | Tynker</title>
+
+<link rel="stylesheet" type="text/css" href="/css/tynker.css?cache=1m&v=6467e95500" />
+<script type="text/javascript">
+                window.includeAvatarChooser = 'false';
+            </script>
+
+
+<script>
+    dataLayer = [];
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NFJHBQZ');</script>
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-34332914-1', 'auto');
+
+    // GA Optimize
+    ga('require', 'GTM-WRCH635');
+        // Set the experiment ID and variation ID.
+    ga('set', 'exp', '2TEKinknQ4OgZwLgkf8Ahw.0');
+
+    
+    // Dimension 1: the member type custom dimension
+    ga('set', 'dimension1', 'Browser');
+
+    // Dimension 2: A/B test tracking, if applicable
+    
+    ga('set', 'dimension3', 'Unknown');
+
+    var isHiDpi = window.devicePixelRatio && window.devicePixelRatio >= 1.5;
+    ga('set', 'dimension5', isHiDpi);
+
+    var roleSelectorRole = window.localStorage ? window.localStorage.getItem('selectRole:role') : null;
+    if (roleSelectorRole) {
+        ga('set', 'dimension6', roleSelectorRole);
+    }
+
+        ga('require', 'ec');
+            ga('send', 'pageview');
+    </script>
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:133938,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script><script>
+            try {
+            console.debug('will trigger', 'optimize_community-projects-play-flappy-bird-5-57039fe451684fe1788b457a_2TEKinknQ4OgZwLgkf8Ahw_0');
+            hj('trigger', 'optimize_community-projects-play-flappy-bird-5-57039fe451684fe1788b457a_2TEKinknQ4OgZwLgkf8Ahw_0');
+            console.debug('triggered');
+        } catch (e) {
+            console.error(e);
+        }
+    </script>
+</head>
+<body class="site site-app  ">
+<div class="">
+<header id="header" class="header-new-app-3 ">
+<div class="zf-row">
+<div class="off-canvas-toggle small-2 hide-for-large zf-column hide-for-small-when-stuck">
+<a data-toggle="off-canvas" href="javascript:void(0)">
+<img src="/image/ui/icn-hamburger.png" style="width: 23px; height: 17px;" alt="Open menu">
+</a>
+</div>
+<div class="logo small-8 large-2 zf-column text-center large-text-left small-6-when-stuck">
+<a href="/?t=reset">
+<img src="/image/tynker-logo-tagline.png" alt="Tynker">
+</a>
+</div>
+<nav class=" large-10 zf-column show-for-large text-right show-for-small-when-stuck small-6-when-stuck">
+<ul>
+<li class="nav-item-free-play nav__item__link--highlighted highlighted  has-nav-menu hide-when-stuck">
+<a href="/play/">
+<span class="icon-gamepad"></span> Play </a>
+<ul class="nav-menu">
+<li class="">
+<a href="/play/">
+Coding Games </a>
+</li>
+<li class="">
+<a href="/minecraft/">
+Minecraft </a>
+</li>
+<li class="">
+<a href="/community/projects/">
+Community Projects </a>
+</li>
+<li class="">
+<a href="/hour-of-code/">
+Hour of Code </a>
+</li>
+</ul>
+</li>
+<li class="nav-item-parents   has-nav-menu hide-when-stuck">
+<a href="/parents/">
+Parents </a>
+<ul class="nav-menu">
+<li class="default">
+<a href="/parents/">
+Tynker For Home </a>
+</li>
+<li class="">
+<a href="/content/why-coding">
+Why Code? </a>
+</li>
+<li class="">
+<a href="/parents/pricing">
+Plans and Pricing </a>
+</li>
+<li class="">
+<a href="/ebook">
+Free eBook </a>
+</li>
+<li class="">
+<a href="/parents/testimonials">
+Testimonials </a>
+</li>
+</ul>
+</li>
+<li class="nav-item-educators   has-nav-menu hide-when-stuck">
+<a href="/school">
+Educators </a>
+<ul class="nav-menu">
+<li class="default">
+<a href="/school/">
+Tynker For Schools </a>
+</li>
+<li class="">
+<a href="/school/coding-curriculum/">
+Curriculum </a>
+</li>
+<li class="">
+<a href="/school/coding-curriculum/request">
+Request a Quote </a>
+</li>
+<li class="">
+<a href="/hour-of-code/teacher">
+Hour of Code </a>
+</li>
+<li class="separator">
+<a href="/school/training">
+Professional Development </a>
+</li>
+<li class="">
+<a href="/camps/">
+Tynker CodeMaker Camp™ </a>
+</li>
+</ul>
+</li>
+<li class="has-button right hide-when-stuck ">
+<a class="button-join" ui-sref="join" rel="nofollow" ga-event-click ga-event-click-label="'Navbar: Join - Sign Up Free'">Sign Up Free</a>
+</li>
+<li class="right hide-when-stuck">
+<span style="color: #9b9b9b;">|</span>
+</li>
+<li class="right hide-when-stuck">
+<a ui-sref="signIn">
+Sign In
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+</div>
+<main id="content" class="content content--footer-colorful ">
+<div class="off-canvas-wrapper ">
+<div class="off-canvas off-canvas-absolute position-left dashboard-sidebar" id="off-canvas" data-off-canvas>
+<ul class="vertical menu dashboard-sidebar-nav dashboard-sidebar-nav-parent" data-accordion-menu>
+<li class="">
+<a href="#/join">
+<span class="title">Sign Up Free</span>
+</a>
+</li>
+<li class="">
+<a href="#/sign-in/">
+<span class="title">Sign In</span>
+</a>
+</li>
+<li class="">
+<a href="/parents/">
+<span class="title">Parents</span>
+</a>
+</li>
+<li class="">
+<a href="/school/">
+<span class="title">Educators</span>
+</a>
+</li>
+<li class="">
+<a href="/content/why-coding">
+<span class="title">Why Code?</span>
+</a>
+</li>
+<li class="">
+<a href="/ebook">
+<span class="title">Free eBook</span>
+</a>
+</li>
+<li class="">
+<a href="http://www.tynker.com/blog/">
+<span class="title">Blog</span>
+</a>
+</li>
+<li class="">
+<a href="https://www.tynker.com/camps">
+<span class="title">CodeMaker™ Camp</span>
+</a>
+</li>
+<li class="">
+<a href="/mobile/">
+<span class="title">Mobile App</span>
+</a>
+</li>
+<li class="">
+<a href="/stories">
+<span class="title"><span class="icon-heart-2"></span></span>
+</a>
+</li>
+</ul>
+</div>
+<div class="off-canvas-content" data-off-canvas-content>
+<div class="no-explore-page no-explore-page-view-resource play-page">
+<div class="editarea" style="min-width: auto;">
+<section class="top-container-background">
+<div class="zf-row">
+<div class="zf-column small-12 medium-8 large-8">
+<div class="show-for-large">
+<ul class="breadcrumbs" style="display: inline-block;">
+<li><a href="/dashboard/student/#/community">Home</a></li>
+<li><a href="/community/projects/">Projects</a></li>
+<li class="current">Flappy Bird 5</li>
+</ul>
+</div>
+<div class="hide-for-large" style="text-align: center;">
+<ul class="breadcrumbs" style="display: inline-block;">
+<li><a href="/dashboard/student/#/community">Home</a></li>
+<li><a href="/community/projects/">Projects</a></li>
+<li class="current">Flappy Bird 5</li>
+</ul>
+</div>
+</div>
+<div class="zf-column small-12 medium-3 show-for-medium" style="text-align: right;">
+<a class="learnmore" href="#/join/student/">
+Learn about Tynker
+</a>
+</div>
+<div class="zf-column small-12 medium-3 hide-for-medium" style="text-align: center;">
+<a class="learnmore" data-open="learn-more" href="javascript:void(0)">
+Learn about Tynker
+</a>
+</div>
+</div>
+<div class="zf-row">
+<div class="zf-column small-12 large-8">
+<div class="player-container" style="background:url('/projects/screenshot/57039fe451684fe1788b457a/flappy-bird-5.png');">
+<div id="container" data-project-id="57039fe451684fe1788b457a"></div>
+</div>
+</div>
+<div class="zf-column small-12 large-4 panel">
+<div>
+<h1>Flappy Bird 5</h1>
+<h2 class="author">by
+<a href="/community/profiles/56683131d111625c7d8b488d">
+Any Sentence </a>
+</h2>
+<h2 class="author">originally from
+"<a href="/play/56c9df9dda667135568b456e">Flappy Bird (Tynker Version)</a>"
+by
+<a href="/community/profiles/56bfe344434a5c876e8b4567">
+Cynical Double </a>
+</h2>
+</div>
+<div class="zf-row text-center buttons-container">
+<a class="button primary large" href="/ide?p=57039fe451684fe1788b457a">Remix Project</a>
+</div>
+<div class="community-actions">
+<div class="action action-like" like-community-project community-project-id="571785852af971310f8b456b" number-likes-selector=".value">
+<div class="icon icon-heart"></div>
+<div class="icon icon-heart-2"></div>
+<div class="value">2</div>
+</div>
+<div class="action action-views no-hover">
+<div class="icon icon-eye"></div>
+<div>862</div>
+</div>
+<div class="action action-share" open-modal="modalShareProject" project-id="57039fe451684fe1788b457a" project-name="Flappy Bird 5">
+<div class="icon icon-share"></div>
+<div>Share</div>
+</div>
+<div class="action action-report" open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="571785852af971310f8b456b">
+<div class="icon icon-flag-2"></div>
+<div>Report</div>
+</div>
+</div>
+<div class="zf-row">
+<div class="zf-column small-12 medium-12">
+<h3 class="title">Description</h3>
+<p>Tap the screen to make the blue square jump. Avoid the obstacles and keep moving!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="zf-row">
+<div class="zf-column small-12 panel">
+<div style="max-height:200px;overflow-y:auto;">
+<div class="zf-row">
+<div class="zf-column small-12 medium-6">
+<h3 class="title">Concepts</h3>
+<p>
+<span>simple messaging</span>, <span>expert physics</span>, <span>simple loops</span>, <span>simple events</span>, <span>advanced physics</span>, <span>advanced motion</span>, <span>simple variables</span>, <span>simple conditionals</span>, <span>delays</span>, <span>resize actor</span>, <span>direction and turning</span>, <span>simple motion</span>, <span>advanced math</span>, <span>simple sound playing</span>, <span>basic math</span>, <span>advanced costume handling</span>, <span>visibility</span>, <span>program control</span>, <span>conditional loops</span>, <span>text handling</span>, <span>screen bounds</span>, <span>detect conditions</span>, <span>input/output</span>, <span>advanced events</span>, <span>advanced loops</span>, <span>graphic effects</span>, <span>basic physics</span> </p>
+<ul class="zf-row small-up-2 medium-up-2 large-up-4">
+<li class="zf-column end">
+<b>#Lines:</b><span>192</span>
+</li>
+<li class="zf-column end">
+<b>#Actors:</b><span>5</span>
+</li>
+<li class="zf-column end">
+<b>#Costumes:</b><span>7</span>
+</li>
+<li class="zf-column end">
+<b>#Scripts:</b><span>54</span>
+</li>
+</ul>
+</div>
+<div class="zf-column small-12 medium-6">
+<h3>Images</h3>
+<ul class="images zf-row small-up-2 medium-up-2 large-up-3">
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/assets/user/564ba89caf9231a7028b45c4.svg" title="background scene - Drawing" alt="background scene - Drawing" /></div> <span style="color:#000">background scene - Drawing</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/392f4068a0e05f4b8bd23a8617ed4c7067d4f022/background-scene---drawing.png" title="background scene - drawing" alt="background scene - drawing" /></div> <span style="color:#000">background scene - drawing</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/b9c20e891423c8b7b3b8f2ebf0e26d7e2edb7f1f/background-scene---drawing1.png" title="background scene - drawing1" alt="background scene - drawing1" /></div> <span style="color:#000">background scene - drawing1</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/3bf52abb9a4f561551bc8f8faa3b7ce930ffd174/background-scene---drawing2.png" title="background scene - drawing2" alt="background scene - drawing2" /></div> <span style="color:#000">background scene - drawing2</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/medialib/538fbd2384aafa425b000003.jpg" title="background scene - space" alt="background scene - space" /></div> <span style="color:#000">background scene - space</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/6f5701ef8354b2fb9822ad208119c603d4af96bc/pipe---drawing.png" title="pipe - drawing" alt="pipe - drawing" /></div> <span style="color:#000">pipe - drawing</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/f963944fb613a7b40f37c517905ea9a941ac5114/score---actor.png" title="Score - actor" alt="Score - actor" /></div> <span style="color:#000">Score - actor</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/e8b4bb8aea6245e4ea5a5b25f2a0907d9929ddc1/tropical-bird-3---tropical-bird-3.png" title="tropical bird 3 - tropical bird 3" alt="tropical bird 3 - tropical bird 3" /></div> <span style="color:#000">tropical bird 3 - tropical bird 3</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/41db7217b0e138b3ce272e110c1666c3ec4e552c/tropical-bird-3---tropical-bird-31.png" title="tropical bird 3 - tropical bird 31" alt="tropical bird 3 - tropical bird 31" /></div> <span style="color:#000">tropical bird 3 - tropical bird 31</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/a72f71d4b8941f9df9505559788ce173c2dce578/pipe1---drawing.png" title="pipe1 - drawing" alt="pipe1 - drawing" /></div> <span style="color:#000">pipe1 - drawing</span></li>
+ <li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/de49f2e2fbb853ba53d84706f3adaf9ac40aa432/drawing1---drawing.png" title="drawing1 - drawing" alt="drawing1 - drawing" /></div> <span style="color:#000">drawing1 - drawing</span></li>
+<li class="zf-column end"><div class="img-container"><img style="max-width:64px;" src="/projects/images/b945e62070f467ac0926e26de5fb0c0747f74c4a/drawing1---drawing1.png" title="drawing1 - drawing1" alt="drawing1 - drawing1" /></div> <span style="color:#000">drawing1 - drawing1</span></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="texture-frame"></div>
+</div>
+
+<div class="zf-row">
+<div class="zf-column small-12">
+<div class="description-container">
+<div class="zf-row">
+<div class="zf-column small-12">
+<h3 class="title">Remixes of "Flappy Bird 5" (94)</h3>
+</div>
+</div>
+<div class="zf-row small-up-1 medium-up-2 large-up-4">
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-tynker-version/56c9df9dda667135568b456e" title="Flappy Bird (Tynker Version)" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56c9df9dda667135568b456e/flappy-bird-tynker-version.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1471285011);" title="Flappy Bird (Tynker Version)">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-hacker" href="/community/profiles/56bfe344434a5c876e8b4567">
+<img src="/image/avatar/codey.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird (Tynker Version)</div>
+<div class="card-description">
+by <a href="/community/profiles/56bfe344434a5c876e8b4567">Cynical Double</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56cc49c12af97110378b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">835</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">97.7k</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56c9df9dda667135568b456e" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56c9df9dda667135568b456e" title="Remix Flappy Bird (Tynker Version)">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56c9df9dda667135568b456e" project-name="Flappy Bird (Tynker Version)" href="javascript:void(0)">
+ <span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56cc49c12af97110378b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-tynker-version-1/56ccab54434a5c53548b457f" title="Flappy Bird (Tynker Version) 1" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56ccab54434a5c53548b457f/flappy-bird-tynker-version-1.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1457545741);" title="Flappy Bird (Tynker Version) 1">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56b4f701da66711c508b456b">
+<img src="/imgs/avatars/av_soccer.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird (Tynker Version) 1</div>
+<div class="card-description">
+by <a href="/community/profiles/56b4f701da66711c508b456b">Rigid Pineapple</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56e0620d2af971b5208b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">1</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">690</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56ccab54434a5c53548b457f" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56ccab54434a5c53548b457f" title="Remix Flappy Bird (Tynker Version) 1">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56ccab54434a5c53548b457f" project-name="Flappy Bird (Tynker Version) 1" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56e0620d2af971b5208b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-tynker-version-1-1/56f17dc51ae7a928688b456f" title="Flappy Bird (Tynker Version) 1 1" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56f17dc51ae7a928688b456f/flappy-bird-tynker-version-1-1.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1458787141);" title="Flappy Bird (Tynker Version) 1 1">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56ccbd05da6671bc5c8b4572">
+<img src="/imgs/avatars/av_superhero.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird (Tynker Version) 1 1</div>
+<div class="card-description">
+by <a href="/community/profiles/56ccbd05da6671bc5c8b4572">Welltodo Graph</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56f353452af971922b8b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">0</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">61</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56f17dc51ae7a928688b456f" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56f17dc51ae7a928688b456f" title="Remix Flappy Bird (Tynker Version) 1 1">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56f17dc51ae7a928688b456f" project-name="Flappy Bird (Tynker Version) 1 1" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56f353452af971922b8b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird/" title="Flappy Bird " data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56e067091ae7a90e548b4567/flappy-bird.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1458850501);" title="Flappy Bird ">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56b8dc4dc5e93d7a318b457d">
+<img src="/imgs/avatars/av_maraca.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird </div>
+<div class="card-description">
+by <a href="/community/profiles/56b8dc4dc5e93d7a318b457d">Unequaled Chant</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56f44ac52af9714d5f8b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">2</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">559</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56e067091ae7a90e548b4567" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56e067091ae7a90e548b4567" title="Remix Flappy Bird ">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56e067091ae7a90e548b4567" project-name="Flappy Bird " href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56f44ac52af9714d5f8b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-1/56f44fd365e4f2fb6e8b458a" title="Flappy Bird  1" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56f44fd365e4f2fb6e8b458a/flappy-bird-1.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1458983941);" title="Flappy Bird  1">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/5666f6be571870da288b4d62">
+<img src="/imgs/avatars/av_bird.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird 1</div>
+<div class="card-description">
+by <a href="/community/profiles/5666f6be571870da288b4d62">Annoyed Film</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56f654052af971de3d8b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">0</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">33</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56f44fd365e4f2fb6e8b458a" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56f44fd365e4f2fb6e8b458a" title="Remix Flappy Bird  1">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56f44fd365e4f2fb6e8b458a" project-name="Flappy Bird  1" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56f654052af971de3d8b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-tynker-version-1/56d4ce6565e4f24f278b456f" title="Flappy Bird (Tynker Version) 1" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56d4ce6565e4f24f278b456f/flappy-bird-tynker-version-1.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1456960501);" title="Flappy Bird (Tynker Version) 1">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56badb9bda667145098b4571">
+<img src="/imgs/avatars/av_dinosurfer.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird (Tynker Version) 1</div>
+<div class="card-description">
+by <a href="/community/profiles/56badb9bda667145098b4571">Thorough Feast</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56d773f52af9711a168b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">3</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">332</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56d4ce6565e4f24f278b456f" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56d4ce6565e4f24f278b456f" title="Remix Flappy Bird (Tynker Version) 1">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56d4ce6565e4f24f278b456f" project-name="Flappy Bird (Tynker Version) 1" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56d773f52af9711a168b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-tynker-version-1-1/56d775d565e4f23d4c8b45a6" title="Flappy Bird (Tynker Version) 1 1" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56d775d565e4f23d4c8b45a6/flappy-bird-tynker-version-1-1.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1457097481);" title="Flappy Bird (Tynker Version) 1 1">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56d77542588161b04b8b4567">
+<img src="/imgs/avatars/av_robot2.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird (Tynker Version) 1 1</div>
+<div class="card-description">
+by <a href="/community/profiles/56d77542588161b04b8b4567">Reasonable Starfish</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56d98b092af971da1c8b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">0</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">529</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56d775d565e4f23d4c8b45a6" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56d775d565e4f23d4c8b45a6" title="Remix Flappy Bird (Tynker Version) 1 1">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56d775d565e4f23d4c8b45a6" project-name="Flappy Bird (Tynker Version) 1 1" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56d98b092af971da1c8b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-tynker-version-1-1-2/56ddd1ea1ae7a9a2358b4570" title="Flappy Bird (Tynker Version) 1 1 2" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56ddd1ea1ae7a9a2358b4570/flappy-bird-tynker-version-1-1-2.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1457485561);" title="Flappy Bird (Tynker Version) 1 1 2">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/568a8f65d11162334e8b456b">
+<img src="/imgs/avatars/av_unicorn.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird (Tynker Version) 1 1 2</div>
+<div class="card-description">
+by <a href="/community/profiles/568a8f65d11162334e8b456b">Standard Basketball</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56df76f92af971bb738b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">1</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">217</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56ddd1ea1ae7a9a2358b4570" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56ddd1ea1ae7a9a2358b4570" title="Remix Flappy Bird (Tynker Version) 1 1 2">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56ddd1ea1ae7a9a2358b4570" project-name="Flappy Bird (Tynker Version) 1 1 2" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56df76f92af971bb738b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+</div>
+<div class="zf-row">
+<div class="zf-column small-12 text-center">
+<a class="button secondary" href="/community/projects/remixes/57039fe451684fe1788b457a">View All Remixes</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="zf-row featured-container">
+<div class="zf-column small-12 no-show-for-small-only">
+<h3 class="title">More from Any Sentence (10)</h3>
+<div class="zf-row small-up-1 medium-up-2 large-up-4">
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/my-project-6/56cb3b63c5e93d101c8b456d" title="My Project 6" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56cb3b63c5e93d101c8b456d/my-project-6.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1456541162);" title="My Project 6">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56683131d111625c7d8b488d">
+<img src="/imgs/avatars/av_robot2.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">My Project 6</div>
+<div class="card-description">
+by <a href="/community/profiles/56683131d111625c7d8b488d">Any Sentence</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56d10dea2af97122138b4570" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">1</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+ <div class="value">43</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56cb3b63c5e93d101c8b456d" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56cb3b63c5e93d101c8b456d" title="Remix My Project 6">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56cb3b63c5e93d101c8b456d" project-name="My Project 6" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56d10dea2af97122138b4570" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-tynker-version-1/56cdc230c5e93daf218b4567" title="Flappy Bird (Tynker Version) 1" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56cdc230c5e93daf218b4567/flappy-bird-tynker-version-1.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1456581541);" title="Flappy Bird (Tynker Version) 1">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56683131d111625c7d8b488d">
+<img src="/imgs/avatars/av_robot2.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird (Tynker Version) 1</div>
+<div class="card-description">
+by <a href="/community/profiles/56683131d111625c7d8b488d">Any Sentence</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56d1aba52af97143758b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">0</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">55</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56cdc230c5e93daf218b4567" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56cdc230c5e93daf218b4567" title="Remix Flappy Bird (Tynker Version) 1">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56cdc230c5e93daf218b4567" project-name="Flappy Bird (Tynker Version) 1" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56d1aba52af97143758b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-5/57039fe451684fe1788b457a" title="Flappy Bird 5" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/57039fe451684fe1788b457a/flappy-bird-5.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1461159301);" title="Flappy Bird 5">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56683131d111625c7d8b488d">
+<img src="/imgs/avatars/av_robot2.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird 5</div>
+<div class="card-description">
+by <a href="/community/profiles/56683131d111625c7d8b488d">Any Sentence</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="571785852af971310f8b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">2</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">863</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="57039fe451684fe1788b457a" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=57039fe451684fe1788b457a" title="Remix Flappy Bird 5">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="57039fe451684fe1788b457a" project-name="Flappy Bird 5" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="571785852af971310f8b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/chopper-game-1/570bfd0d51684f12038b457b" title="Chopper Game 1" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/570bfd0d51684f12038b457b/chopper-game-1.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1460535661);" title="Chopper Game 1">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56683131d111625c7d8b488d">
+<img src="/imgs/avatars/av_robot2.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Chopper Game 1</div>
+<div class="card-description">
+by <a href="/community/profiles/56683131d111625c7d8b488d">Any Sentence</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="570e016d2af97188688b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">0</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">64</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="570bfd0d51684f12038b457b" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=570bfd0d51684f12038b457b" title="Remix Chopper Game 1">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="570bfd0d51684f12038b457b" project-name="Chopper Game 1" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="570e016d2af97188688b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/ninja-atack-3/570cd85f588161d83e8b4568" title="ninja atack 3" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/570cd85f588161d83e8b4568/ninja-atack-3.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1460563141);" title="ninja atack 3">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56683131d111625c7d8b488d">
+<img src="/imgs/avatars/av_robot2.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">ninja atack 3</div>
+<div class="card-description">
+by <a href="/community/profiles/56683131d111625c7d8b488d">Any Sentence</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="570e6cc52af9713f378b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">9</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">814</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="570cd85f588161d83e8b4568" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=570cd85f588161d83e8b4568" title="Remix ninja atack 3">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="570cd85f588161d83e8b4568" project-name="ninja atack 3" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="570e6cc52af9713f378b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/flappy-bird-5/5715234865e4f263568b45a1" title="Flappy Bird 5" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/5715234865e4f263568b45a1/flappy-bird-5.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1461159181);" title="Flappy Bird 5">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56683131d111625c7d8b488d">
+<img src="/imgs/avatars/av_robot2.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Flappy Bird 5</div>
+<div class="card-description">
+by <a href="/community/profiles/56683131d111625c7d8b488d">Any Sentence</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="5717850d2af971c90e8b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">2</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">605</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="5715234865e4f263568b45a1" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=5715234865e4f263568b45a1" title="Remix Flappy Bird 5">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="5715234865e4f263568b45a1" project-name="Flappy Bird 5" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="5717850d2af971c90e8b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/fnaa-10/5718baf41ae7a99e738b4567" title="FNAA 10" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/5718baf41ae7a99e738b4567/fnaa-10.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1461371581);" title="FNAA 10">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56683131d111625c7d8b488d">
+<img src="/imgs/avatars/av_robot2.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">FNAA 10</div>
+<div class="card-description">
+by <a href="/community/profiles/56683131d111625c7d8b488d">Any Sentence</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="571ac2bd2af971a6258b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">0</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">115</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="5718baf41ae7a99e738b4567" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=5718baf41ae7a99e738b4567" title="Remix FNAA 10">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="5718baf41ae7a99e738b4567" project-name="FNAA 10" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="571ac2bd2af971a6258b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/maze-it-s-triky/571fcef365e4f28f628b4569" title="Maze it's triky" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/571fcef365e4f28f628b4569/maze-it-s-triky.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1461957361);" title="Maze it's triky">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/56683131d111625c7d8b488d">
+<img src="/imgs/avatars/av_robot2.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Maze it's triky</div>
+<div class="card-description">
+by <a href="/community/profiles/56683131d111625c7d8b488d">Any Sentence</a>
+ </div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="5723b2f12af9710b748b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">5</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">1.5k</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="571fcef365e4f28f628b4569" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=571fcef365e4f28f628b4569" title="Remix Maze it's triky">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="571fcef365e4f28f628b4569" project-name="Maze it's triky" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="5723b2f12af9710b748b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+</div>
+<div class="zf-row">
+<div class="zf-column small-12 text-center">
+<a class="button secondary" href="/community/profiles/56683131d111625c7d8b488d">More from Any Sentence</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="zf-row featured-container">
+<div class="zf-column small-12 no-show-for-small-only">
+<h3 class="title">Featured</h3>
+<div class="zf-row small-up-1 medium-up-2 large-up-4">
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/so-good/56abbe7fc5e93ddc0a8b4598" title="So Good" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/56abbe7fc5e93ddc0a8b4598/so-good.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1454103733);" title="So Good">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/5670d1bd436e69fc688b4568">
+<img src="/imgs/avatars/av_soccer.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">So Good</div>
+<div class="card-description">
+by <a href="/community/profiles/5670d1bd436e69fc688b4568">Salty Well</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="56abdcb5af923162568b4a10" number-likes-selector=".value">
+<div class="image"></div>
+ <div class="value">47</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">12.1k</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="56abbe7fc5e93ddc0a8b4598" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=56abbe7fc5e93ddc0a8b4598" title="Remix So Good">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="56abbe7fc5e93ddc0a8b4598" project-name="So Good" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="56abdcb5af923162568b4a10" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/tynker-uppgift/573c581165e4f2317c8b456b" title="Tynker uppgift" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/573c581165e4f2317c8b456b/tynker-uppgift.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1527795963);" title="Tynker uppgift">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/5729b96b51684ff9238b456b">
+<img src="/image/avatar/green-zombie.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Tynker uppgift</div>
+<div class="card-description">
+by <a href="/community/profiles/5729b96b51684ff9238b456b">Skillful Holiday</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="573ff2592af9711f5d8b456b" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">2.1k</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">805.8k</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="573c581165e4f2317c8b456b" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=573c581165e4f2317c8b456b" title="Remix Tynker uppgift">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="573c581165e4f2317c8b456b" project-name="Tynker uppgift" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="573ff2592af9711f5d8b456b" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/fisho/5aba9aa576f2938e638b45cf" title="Fisho" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/5aba9aa576f2938e638b45cf/fisho.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1522292401);" title="Fisho">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/59dcdfbc949b5627058b45d3">
+<img src="/imgs/avatars/av_puffer.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Fisho</div>
+<div class="card-description">
+by <a href="/community/profiles/59dcdfbc949b5627058b45d3">Harmonious Key</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="5abc56b1829a3237388b456a" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">49</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">17.7k</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="5aba9aa576f2938e638b45cf" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=5aba9aa576f2938e638b45cf" title="Remix Fisho">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="5aba9aa576f2938e638b45cf" project-name="Fisho" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="5abc56b1829a3237388b456a" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+<div class="zf-column end">
+<div class="project-card-2" card-with-options>
+<a class="card-preview" card-front href="/community/projects/play/dragon-ball-z-arcade-fighting-1/5c10fb8d04ad258a1c178bc8" title="Dragon ball z arcade fighting 1" data-toggler=".hide">
+<span class="card-preview-image" style="background-image: url(/projects/screenshot/5c10fb8d04ad258a1c178bc8/dragon-ball-z-arcade-fighting-1.png?width=560&height=320&mode=cover&format=jpg&quality=75&cache=1m&v=1563288422);" title="Dragon ball z arcade fighting 1">
+</span>
+<span class="card-preview-action">
+<span class="card-preview-action-icon custom-play-icon"></span>
+</span>
+</a>
+<div class="card-details zf-row collapse" card-front>
+<a class="card-avatar card-avatar-adventurer" href="/community/profiles/5bb509319353db59505c3613">
+<img src="/imgs/avatars/av_unicorn.png?width=68&height=68&mode=contain&format=png&quality=85&cache=1m&v=1">
+</a>
+<div class="zf-column small-8">
+<div class="card-name">Dragon ball z arcade fighting 1</div>
+<div class="card-description">
+by <a href="/community/profiles/5bb509319353db59505c3613">Lively Confetti</a>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-likes enable-like " like-community-project liked="false" community-project-id="5c1168c134ecbb5f475e99bb" number-likes-selector=".value">
+<div class="image"></div>
+<div class="value">278</div>
+</div>
+</div>
+<div class="zf-column small-2">
+<div class="card-counter card-counter-views">
+<div class="image"></div>
+<div class="value">38.6k</div>
+</div>
+</div>
+</div>
+<div class="card-back hide" card-back>
+<ul>
+<li>
+<a open-modal="modalPlayProject" project-id="5c10fb8d04ad258a1c178bc8" href="javascript:void(0);">
+<span class="icon icon-play-2"></span><span class="text">Play</span>
+</a>
+</li>
+<li>
+<a href="/ide/?p=5c10fb8d04ad258a1c178bc8" title="Remix Dragon ball z arcade fighting 1">
+<span class="icon icon-remix"></span><span class="text">Remix</span>
+</a>
+</li>
+<li>
+<a open-modal="modalShareProject" project-id="5c10fb8d04ad258a1c178bc8" project-name="Dragon ball z arcade fighting 1" href="javascript:void(0)">
+<span class="icon icon-share"></span><span class="text">Share</span>
+</a>
+</li>
+<li>
+<a open-modal="modalReportCommunityAsset" asset-type="project" community-asset-id="5c1168c134ecbb5f475e99bb" href="javascript:void(0)">
+<span class="icon icon-flag"></span><span class="text">Report</span>
+</a>
+</li>
+</ul>
+</div>
+<a class="card-more-options" card-more-options href="javascript:void(0)">
+<span class="icon-more"></span>
+</a>
+</div>
+</div>
+</div>
+<div class="zf-row">
+<div class="zf-column small-12 text-center">
+<a class="button secondary" href="/community/projects/trending-topics/">More Featured Projects</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="links-footer hour-of-code-links-footer">
+<div class="zf-row">
+<div class="zf-column small-12 medium-8">
+<h4 class="title">
+<a href="/hour-of-code/" style="">Try an Hour of Code</a>
+</h4>
+<div class="zf-row">
+<ul class="zf-column small-12 medium-6 large-3">
+<li><a href="/hour-of-code/">All Activities</a></li>
+<li><a href="/hour-of-code/?category=k-2">Grade K-2</a></li>
+<li><a href="/hour-of-code/?category=3-5">Grade 3 - 5</a></li>
+<li><a href="/hour-of-code/?category=6-8">Grade 6+</a></li>
+<li><a href="/hour-of-code/barbie-pet-vet">Barbie&trade; Pet Vet</a></li>
+<li><a href="/hour-of-code/barbie-ycba">Barbie&trade; You Can Be Anything&trade;</a></li>
+<li><a href="/hour-of-code/space-quest">Space Quest</a></li>
+<li><a href="/hour-of-code/dragon-blast">Dragon Blast</a></li>
+<li><a href="/hour-of-code/candy-quest">Candy Quest</a></li>
+<li><a href="/hour-of-code/hot-wheels">Hot Wheels</a></li>
+<li><a href="/hour-of-code/dragon-dash">Dragon Dash</a></li>
+<li><a href="/hour-of-code/counter-hack">Counter Hack</a></li>
+</ul>
+<ul class="zf-column small-12 medium-6 large-3">
+<li><a href="/hour-of-code/undersea-arcade">Undersea Arcade</a></li>
+<li><a href="/hour-of-code/monster-high">Monster High</a></li>
+<li><a href="/hour-of-code/space-quest">Space Quest</a></li>
+<li><a href="/hour-of-code/pets-game">Pets Game</a></li>
+<li><a href="/hour-of-code/cooking-game">Cooking Game</a></li>
+<li><a href="/hour-of-code/change-the-world">Change the World</a></li>
+<li><a href="/hour-of-code/toxic-jungle">Toxic Jungle</a></li>
+<li><a href="/hour-of-code/analog-clock">Analog Clock</a></li>
+<li><a href="/hour-of-code/physics-cannon-2-player">Physics Cannon Game</a></li>
+<li><a href="/hour-of-code/brick-breaker">Brick Breaker</a></li>
+<li><a href="/hour-of-code/platformer-starter-kit">Platformer Starter Kit</a></li>
+<li><a href="/dashboard/student/#/projects/templates/block/minecraft-mods">Mod Minecraft</a></li>
+</ul>
+<ul class="zf-column small-12 medium-6 large-3">
+<li><a href="/hour-of-code/code-monsters">Code Monsters</a></li>
+<li><a href="/hour-of-code/code-commander">Code Commander</a></li>
+<li><a href="/hour-of-code/draw-a-landscape">Draw a Landscape</a></li>
+<li><a href="/hour-of-code/superhero-masks">Superhero Masks</a></li>
+<li><a href="/hour-of-code/lost-in-space">Lost in Space</a></li>
+<li><a href="/hour-of-code/tell-a-joke">Tell a Joke</a></li>
+<li><a href="/hour-of-code/ecological-pyramid">Ecological Pyramid</a></li>
+<li><a href="/hour-of-code/homophones">Homophones</a></li>
+<li><a href="/hour-of-code/multiplication-escape">Multiplication Escape</a></li>
+<li><a href="/hour-of-code/solar-system">Solar System</a></li>
+<li><a href="/hour-of-code/puppy-adventure">Puppy Adventure</a></li>
+<li><a href="/hour-of-code/bill-of-rights">Bill of Rights</a></li>
+</ul>
+<ul class="zf-column small-12 medium-6 large-3">
+<li><a href="/hour-of-code/crystal-clash">Crystal Clash</a></li>
+<li><a href="/hour-of-code/bird-mayhem">Bird Mayhem</a></li>
+<li><a href="/hour-of-code/spin-draw">Spin Draw</a></li>
+<li><a href="/hour-of-code/pattern-maker">Pattern Maker</a></li>
+<li><a href="/hour-of-code/debugger">Debugger</a></li>
+<li><a href="/hour-of-code/?category=stem">STEM</a></li>
+<li><a href="/hour-of-code/peep-dance-with-friends">Peep: Dance with Friends</a></li>
+<li><a href="/hour-of-code/peep-nature-walk">Peep: Nature Walk</a></li>
+<li><a href="/hour-of-code/hardware">Hardware</a></li>
+</ul>
+</div>
+</div>
+<div class="zf-column small-12 medium-4">
+<h4 class="title">
+<a href="/dashboard/student/#/dashboard">Learn to Code & Mod</a>
+</h4>
+<div class="zf-row">
+<ul class="zf-column small-12 medium-6">
+<li><a href="/dashboard/student/#/courses/block-coding">Visual Coding</a></li>
+<li><a href="/dashboard/student/#/courses/minecraft">Minecraft</a></li>
+<li><a href="/dashboard/student/#/courses/robotics">Robotics</a></li>
+<li><a href="/dashboard/student/#/courses/javascript-python">Text Coding</a></li>
+</ul>
+<ul class="zf-column small-12 medium-6">
+<li><a href="/minecraft/skins/">Skins</a></li>
+<li><a href="/minecraft/items/">Items</a></li>
+<li><a href="/minecraft/blocks/">Blocks</a></li>
+<li><a href="/minecraft/mobs/">Mobs</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div ng-controller="JoinCtrl">
+<div id="join-view" ui-view></div>
+</div>
+</div>
+</div>
+</main>
+<footer class="">
+<a id="site-feedback" open-feedback-form>
+<img src="/image/btn-feedback.png" alt="Feedback" title="Feedback" />
+</a>
+<div class="footer-top zf-row">
+<div class="footer-about zf-column small-12 medium-5 large-4">
+<h2>About</h2>
+<p>Tynker is the #1 Kids Coding Platform where millions have learned to code. Tynker offers self-paced online courses for children to learn coding at home, as well as an engaging programming curriculum for schools and camps.</p>
+<a class="kid-safe-seal hide-for-medium" href="http://www.kidsafeseal.com/certifiedproducts/tynker.html" target="_blank">
+<img border="0" alt="Tynker.com (student login area) is certified by the kidSAFE Seal Program." title="Tynker.com (student login area) is certified by the kidSAFE Seal Program." src="//www.kidsafeseal.com/sealimage/12561472311528278049/tynker_small_darktm.png">
+</a>
+</div>
+<div class="footer-links zf-column small-12 medium-7 large-5 show-for-medium">
+<div class="zf-row">
+<div class="zf-column small-4">
+<h2>Resources</h2>
+<ul>
+<li><a href="http://www.tynker.com/blog/">Blog</a></li>
+<li><a href="/blog/articles/category/success-stories/">Stories</a></li>
+<li><a href="/partners/">Partners</a></li>
+<li><a href="/about/press/">Press</a></li>
+<li><a href="/about/career">Jobs</a></li>
+<li><a href="/mobile/">Mobile Apps</a></li>
+<li><a href="//forum.tynker.com" target="_blank">Forum</a></li>
+<li><a href="//shop.tynker.com" target="_blank">Store</a></li>
+</ul>
+</div>
+<div class="zf-column small-4">
+<h2>Parents</h2>
+<ul>
+<li><a href="/content/why-coding">Why Coding</a></li>
+<li><a href="/play/">Play</a></li>
+<li><a href="/courses/">Courses</a></li>
+<li><a href="/kids-experience/">How Kids Learn</a></li>
+<li><a href="/explore">Kids Gallery</a></li>
+<li><a href="/gift/">Give a Gift</a></li>
+<li><a href="/redeem/">Redeem</a></li>
+</ul>
+</div>
+<div class="zf-column small-4">
+<h2>Educators</h2>
+<ul>
+<li><a href="/hour-of-code/">Hour of Code</a></li>
+<li><a href="/school/coding-curriculum">School Courses</a></li>
+<li><a href="/school/stem?t=physical+science">STEM Projects</a></li>
+<li><a href="/school/coding-curriculum/common-core">Common Core</a></li>
+<li><a href="/camps">Start a Camp</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="zf-column small-12 medium-12 large-3">
+<div class="zf-row">
+<div class="show-for-medium zf-column medium-5 large-12">
+<h2>Stay Connected</h2>
+<ul class="social-links">
+<li>
+<a class="" href="https://www.facebook.com/GoTynker" target="_blank"><span class="icon-facebook"></span></a>
+</li>
+<li>
+<a class="" href="https://twitter.com/gotynker" target="_blank"><span class="icon-twitter"></span></a>
+</li>
+<li>
+<a class="" href="https://plus.google.com/111189514752913165927" target="_blank"><span class="icon-google-plus"></span></a>
+</li>
+<li>
+<a class="" href="https://www.youtube.com/channel/UC2MAKe5X7pohhiMZ4nzdInA?sub_confirmation=1" target="_blank"><span class="icon-youtube"></span></a>
+</li>
+<li>
+<a class="" href="https://www.instagram.com/tynkercoding" target="_blank"><span class="icon-instagram"></span></a>
+</li>
+</ul>
+</div>
+<div class="zf-column small-8 medium-7 large-12">
+<h2>Parent Newsletter</h2>
+<form id="subscribe-form" class="subscribe-form js-subscribe-form" action="/forms/subscribe" method="post">
+<input type="hidden" name="type" value="email-collector-footer" />
+<input type="hidden" name="strict" value="false" />
+<div class="alert-error hidden js-error"></div>
+<input type="text" required name="email" placeholder="Enter Your Email" />
+<input class="button secondary" type="submit" name="subscribe" value="OK" />
+</form>
+</div>
+<div class="hide-for-medium zf-column small-4">
+<ul class="social-links">
+<li>
+<a href="https://www.facebook.com/GoTynker" target="_blank"><span class="icon-facebook"></span></a>
+</li>
+<li>
+<a href="https://twitter.com/gotynker" target="_blank"><span class="icon-twitter"></span></a>
+</li>
+<li>
+<a href="https://plus.google.com/111189514752913165927" target="_blank"><span class="icon-google-plus"></span></a>
+</li>
+<li>
+<a href="https://www.youtube.com/channel/UC2MAKe5X7pohhiMZ4nzdInA?sub_confirmation=1" target="_blank"><span class="icon-youtube"></span></a>
+</li>
+<li>
+<a class="" href="https://www.instagram.com/tynkercoding" target="_blank"><span class="icon-instagram"></span></a>
+ </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom zf-row">
+<div class="zf-column">
+<a class="kid-safe-seal show-for-medium" href="http://www.kidsafeseal.com/certifiedproducts/tynker.html" target="_blank">
+<img border="0" alt="Tynker.com (student login area) is certified by the kidSAFE Seal Program." title="Tynker.com (student login area) is certified by the kidSAFE Seal Program." src="//www.kidsafeseal.com/sealimage/12561472311528278049/tynker_small_darktm.png">
+</a>
+© 2019 Neuron Fuel <a href="/terms" target="_blank">Terms &amp; Conditions</a>
+<a class="privacy-policy" href="/privacy" target="_blank">Privacy Policy</a>
+<a href="/kids-online-safety" target="_blank">Kids &amp; Online Safety</a>
+<a href="/about/">About Us</a>
+<a class="info" href="/about/contact">Contact Us</a>
+</div>
+</div>
+</footer>
+
+<script type="text/javascript" src="/js/lib/jquery/jquery.min.js?cache=1m&v=7cb05e3500"></script>
+<script type="text/javascript" src="/js/lib/foundation/foundation.min.js?cache=1m&v=e2d89d1500"></script>
+<script type="text/javascript" src="/js/lib/angular/angular.min.js?cache=1m&v=2099f7a500"></script>
+<script type="text/javascript" src="/js/lib/angular-animate/angular-animate.min.js?cache=1m&v=9affa27500"></script>
+<script type="text/javascript" src="/js/lib/angular-ui-router/angular-ui-router.min.js?cache=1m&v=a467c5c500"></script>
+<script type="text/javascript" src="/js/lib/ng-infinite-scroll.min.js?cache=1m&v=4357541500"></script>
+<script type="text/javascript" src="/js/lib/ravenjs/3.22.1/raven.min.js?cache=1m&v=847c6e4500" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    Raven.config('https://5d52e486e756454ea212fdf4756b4de0@sentry.io/201712', {
+        dataCallback: function (data) {
+            if(window.location !== undefined && window.location.href != null) {
+                if(data.extra === undefined) { data.extra = {}; }
+                data.extra['full_url'] = window.location.href;
+            }
+            return data;
+        },
+        ignoreErrors: [
+            // Error generated by a bug in auto-fill library from browser
+            // https://github.com/getsentry/sentry/issues/5267
+            /Blocked a frame with origin/,
+        ]
+    }).install();
+    Raven.setUserContext([]);
+</script>
+<script type="text/javascript" src="/js/app_site_combined.js?cache=1m&v=830c214500"></script>
+<script type="text/javascript" src="/js/site_combined.js?cache=1m&v=c21ac95500"></script>
+<script type="text/javascript" src="/js/dist/site.js?cache=1m&v=64257ad500"></script>
+<script id="site-state" type="application/json">
+    {"isEU":false,"isUserLoggedIn":false,"isToolsLogin":null}</script>
+<script type="text/javascript" src="/ide/js/characters"></script>
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFJHBQZ"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<script>
+/**
+ * Log an event.  Uses google analytics.  If doesn't exist, will nop.
+ */
+function _log(module, action, label, value) {
+    if (!window.ga) {
+        return;
+    }
+
+    // Assemble the category dynamically
+    var category = '(teacher) portal - ' + module;
+
+    // @TODO: Temporary, for assessing the event quota (too many events) hypothesis
+    // Silencing all events with category "(student) portal - myclass"
+    if (category == '(student) portal - myclass') {
+        return;
+    }
+
+    var params = ['send', 'event', category, action];
+    if (label) {
+        params.push('' + label);
+        if (value) {
+            params.push(parseInt(value));
+        }
+    }
+    ga.apply(null, params);
+}
+</script>
+
+<script type="text/javascript" src="/ide/js/pcombined.js?cache=1m&v=3c5c011500"></script>
+<script type="text/javascript" src="/ide/js/characters?t=standalone"></script>
+<script type="text/javascript" src="/ide/js/features?override=true"></script>
+<script type="text/javascript" src="/global/js/m/play.js?cache=1m&v=cab4009500"></script>
+<script>
+    </script>
+ <script>
+        $(document).ready(function() {
+            $(document).foundation();
+
+            // @lmartinho HACK: For the subscribe form only
+            // AJAX the newsletter subscribe form, but use custom success action
+            // (redirect to the /about/newsletter page in edit mode
+            $('.js-subscribe-form').ajaxForm({
+                success: function(data) {
+                    if (!data.subscription_id) {
+                        $(this).find('.js-error').text(data.error);
+                        return;
+                    }
+                    var subscriptionId = data.subscription_id;
+                    window.location = '/about/newsletter?id=' + subscriptionId;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
